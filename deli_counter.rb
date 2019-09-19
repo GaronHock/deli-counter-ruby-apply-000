@@ -12,6 +12,9 @@ def line(arr)
     puts "The line is currently empty."
   end
   i = 0 
+  array = []
+  array << arr
+  print arr
   string = arr.join(" ")
   if arr.length > 0
       puts "The line is currently: " + string
