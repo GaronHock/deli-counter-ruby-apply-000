@@ -24,13 +24,14 @@ def line(arr)
 end
 
 def now_serving(arr)
+  new_array = []
   if arr.length == 0 
     puts "There is nobody waiting to be served!"
   end
   if arr.length != 0
  puts "Currently serving " + arr[0] + "."
  end
- arr.shift
+ new_array << arr.shift
 end  
   
 
