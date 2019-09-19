@@ -19,7 +19,7 @@ def line(arr)
   end
   string = array.join(" ")
   if arr.length > 0
-      puts "The line is currently: " + array
+      puts "The line is currently: " + string
     end
 end
 
