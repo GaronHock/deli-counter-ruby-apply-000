@@ -15,7 +15,7 @@ def line(arr)
   array = []
   arr.each_with_index do |ele, idx|
     idx = idx + 1
-    array << idx.to_s + ele
+    array << idx.to_s + ". " + ele
   end
   string = array.join(" ")
   if arr.length > 0
