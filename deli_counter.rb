@@ -53,7 +53,7 @@ another_deli =  ["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi
    puts take_a_number(katz_deli, "Grace")
    puts take_a_number(katz_deli, "Kent") 
    
-   puts now_serving(katz_deli)  
-  puts now_serving(other_deli)
+    now_serving(katz_deli)  
+   now_serving(other_deli)
   
 
