@@ -17,10 +17,9 @@ def line(arr)
     idx = idx + 1
     array << idx.to_s + ele
   end
-    print array
-  string = arr.join(" ")
+  string = array.join(" ")
   if arr.length > 0
-      puts "The line is currently: " + string
+      puts "The line is currently: " + array
     end
 end
 
