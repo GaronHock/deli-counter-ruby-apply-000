@@ -13,8 +13,10 @@ def line(arr)
   end
   i = 0 
   array = []
-  array << arr
-  print array
+  arr.each_with_index do |ele, idx|
+    array << idx + ele
+  end
+    print array
   string = arr.join(" ")
   if arr.length > 0
       puts "The line is currently: " + string
