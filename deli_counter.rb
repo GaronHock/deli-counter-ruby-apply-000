@@ -14,7 +14,7 @@ def line(arr)
   i = 0 
   array = []
   array << arr
-  print arr
+  print array
   string = arr.join(" ")
   if arr.length > 0
       puts "The line is currently: " + string
