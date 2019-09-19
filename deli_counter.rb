@@ -40,18 +40,18 @@ katz_deli = []
 other_deli  = ["Logan", "Avi", "Spencer"] 
 another_deli =  ["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi", "Joe", "Rachel", "Lindsey"] 
   
-  puts line(katz_deli) 
+  line(katz_deli) 
   
-    puts line(other_deli)
+   line(other_deli)
   
- puts line(another_deli) 
+  line(another_deli) 
   
-  puts take_a_number(katz_deli, "Ada") 
-   puts take_a_number(other_deli, "Grace")
+   take_a_number(katz_deli, "Ada") 
+    take_a_number(other_deli, "Grace")
    
-   puts take_a_number(katz_deli, "Ada" )
-   puts take_a_number(katz_deli, "Grace")
-   puts take_a_number(katz_deli, "Kent") 
+    take_a_number(katz_deli, "Ada" )
+    take_a_number(katz_deli, "Grace")
+    take_a_number(katz_deli, "Kent") 
    
     now_serving(katz_deli)  
    now_serving(other_deli)
