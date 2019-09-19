@@ -12,7 +12,6 @@ def line(arr)
     puts "The line is currently empty."
   end
   i = 0 
- 
   string = arr.join(" ")
   if arr.length > 0
       puts "The line is currently: " + string
