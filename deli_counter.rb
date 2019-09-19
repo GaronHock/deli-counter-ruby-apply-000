@@ -14,6 +14,7 @@ def line(arr)
   i = 0 
   array = []
   arr.each_with_index do |ele, idx|
+    idx = idx + 1
     array << idx.to_s + ele
   end
     print array
