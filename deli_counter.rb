@@ -29,8 +29,8 @@ def now_serving(arr)
   end
   if arr.length != 0
  puts "Currently serving " + arr[0] + "."
- arr.shift
  end
+ arr.shift
 end  
   
 
